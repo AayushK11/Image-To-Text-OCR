@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/MainColor"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/text_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ads"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="@string/text_guide_1"
+        android:textColor="@color/GreenColor"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/text_guide"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="12dp"
+      />
+
+    <TextView
+        android:id="@+id/detectTextGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_guide_3"
+        android:textSize="20sp"
+        android:textColor="@color/GreenColor"
+        android:visibility="invisible"/>
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/scanNow"
+        android:layout_below="@+id/detectTextGuide"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/MainColor"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/outputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:visibility="invisible"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/copyButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/detectTextGuide"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="?attr/actionModeCopyDrawable"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/chooseImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:background="@drawable/button_design_left"
+        android:textColor="@color/MainColor"
+        android:text="@string/choose_image" />
+
+    <Button
+        android:id="@+id/scanNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:visibility="invisible"
+        android:background="@drawable/button_design_right"
+        android:textColor="@color/MainColor"
+        android:text="@string/detect_image" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7595014258577987/7294401704">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

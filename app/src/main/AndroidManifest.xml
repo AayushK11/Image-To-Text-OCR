@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.imagetotext.miniproject">
+    <uses-permission android:name="android.permission.INTERNET">
+
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_logo_blank_pic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/main_logo_blank_pic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.imagetotext.miniproject.MainActivity5"
+            android:theme="@style/AppTheme"
+            android:label="@string/contact_us"/>
+        <activity
+            android:name="com.imagetotext.miniproject.MainActivity4"
+            android:theme="@style/AppTheme"
+            android:label="@string/about_us"/>
+        <activity
+            android:name="com.imagetotext.miniproject.MainActivity3"
+            android:theme="@style/AppTheme"
+            android:label="@string/how_to_use_app"/>
+        <activity
+            android:name="com.imagetotext.miniproject.MainActivity2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.imagetotext.miniproject.MainActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7595014258577987~8219636410"/>
+    </application>
+
+</manifest>

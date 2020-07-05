@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/MainColor">
+
+    <TextView
+        android:id="@+id/name_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/adView"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:text="@string/aayush_name"
+        android:textColor="@color/GreenColor"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/name_1_gmail_logo"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:src="@drawable/gmail_logo"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/name_1"
+        />
+
+    <TextView
+        android:id="@+id/name_1_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/name_1_gmail_logo"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/name_1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:text="@string/aayush_email"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/name_1_instagram_logo"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:src="@drawable/instagram_logo"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/name_1_gmail_logo"
+        />
+
+    <TextView
+        android:id="@+id/name_1_instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/name_1_gmail_logo"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/name_1_gmail"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:text="@string/aayush_instagram"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/name_1_twitter_logo"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:src="@drawable/twitter_logo"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/name_1_instagram_logo"
+        />
+
+    <TextView
+        android:id="@+id/name_1_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/name_1_instagram_logo"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/name_1_instagram"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:text="@string/aayush_twitter"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/name_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/name_1_twitter_logo"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:text="@string/ajinkya_name"
+        android:textColor="@color/GreenColor"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/name_2_gmail_logo"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:src="@drawable/gmail_logo"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/name_2"
+        />
+
+    <TextView
+        android:id="@+id/name_2_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/name_2_gmail_logo"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/name_2"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:text="@string/ajinkya_email"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/name_2_instagram_logo"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:src="@drawable/instagram_logo"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/name_2_gmail_logo"
+        />
+
+    <TextView
+        android:id="@+id/name_2_instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/name_2_gmail_logo"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/name_2_gmail"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:text="@string/ajinkya_instagram"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/name_2_twitter_logo"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:src="@drawable/twitter_logo"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/name_2_instagram_logo"
+        />
+
+    <TextView
+        android:id="@+id/name_2_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/name_2_instagram_logo"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/name_2_instagram"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:text="@string/ajinkya_twitter"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/click_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/name_2_twitter_logo"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/copy_address"
+        android:textColor="@color/GreenColor"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/click_logo"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_design_left"
+        android:gravity="center"
+        android:text="@string/back"
+        android:textColor="@color/MainColor" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7595014258577987/6364463412">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+</RelativeLayout>

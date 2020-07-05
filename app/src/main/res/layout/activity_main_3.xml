@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/MainColor">
+
+    <RelativeLayout
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@+id/howTo_Add"
+        android:background="@drawable/image_border"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/uploadImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/upload"/>
+
+        <TextView
+            android:id="@+id/howToUploadTxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/uploadImage"
+            android:layout_marginTop="10dp"
+            android:text="@string/how_to_upload_1"
+            android:textColor="@color/GreenColor"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/howToUploadTxt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/howToUploadTxt1"
+            android:layout_marginTop="10dp"
+            android:text="@string/how_to_upload_2"
+            android:textColor="@color/GreenColor"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@+id/howTo_Add"
+        android:background="@drawable/image_border"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/ScanImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/scan" />
+
+        <TextView
+            android:id="@+id/GetScannedTxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ScanImage"
+            android:layout_marginTop="10dp"
+            android:text="@string/how_to_scan_1"
+            android:textColor="@color/GreenColor"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/GetScannedTxt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/GetScannedTxt1"
+            android:layout_marginTop="10dp"
+            android:text="@string/how_to_scan_2"
+            android:textColor="@color/GreenColor"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_design_left"
+        android:gravity="center"
+        android:text="@string/back"
+        android:textColor="@color/MainColor" />
+
+    <Button
+        android:id="@+id/how_to_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_design_right"
+        android:gravity="center"
+        android:text="@string/next"
+        android:textColor="@color/MainColor" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/howTo_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7595014258577987/5650147542">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

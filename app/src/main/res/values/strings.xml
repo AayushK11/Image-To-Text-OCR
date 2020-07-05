@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Image To Text OCR</string>
+    <string name="intro_details">Developed by Aayush Kumaria\n Designed by Ajinkya Rajkar</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="detect_image">Scan Now</string>
+    <string name="text_guide_1"><u>Select an image:</u></string>
+    <string name="text_guide_2"><u>Image Selected is:</u></string>
+    <string name="text_guide_3"><u>Click Scan Now to Detect text</u></string>
+    <string name="text_guide_4"><u>Detected text is:</u></string>
+    <string name="content_description">Image</string>
+    <string name="no_text">No text found</string>
+    <string name="how_to_use_app">How to Use The App</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="how_to_upload_1">Click <i> Choose Image </i> and choose an Image from your gallery.</string>
+    <string name="how_to_upload_2">If your image is visible, it can be scanned. Click <i> Scan Now </i> to scan the text</string>
+    <string name="how_to_scan_1">The text recognised in the image is displayed on your screen</string>
+    <string name="how_to_scan_2">You can click the <i> Copy </i> icon to copy the text to your clipboard</string>
+    <string name="back">Back</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="about_us_1">Developed by:\t Aayush Kumaria \nDesigned by:\t\t Ajinkya Rajkar</string>
+    <string name="about_us_2">This application was created while studying BTech. Computer Science and Engineering at MIT School Of Engineering as part of our Fourth Semester Mini Project.</string>
+    <string name="about_us_3">We got the idea of creating this application because while technology moved forward, the learning methods remained same : Copying Notes from a whiteboard and learning from it later on.</string>
+    <string name="about_us_4">Hence the idea came, What if there was a way of capturing the text from the board by just uploading a picture.</string>
+    <string name="about_us_5">Now, along with scanning pictures to extract notes, the application can also be used in various different scenarios.</string>
+    <string name="aayush_name">Aayush Kumaria</string>
+    <string name="aayush_email">aayush.kumaria@gmail.com</string>
+    <string name="aayush_instagram">\@aayushkumaria11</string>
+    <string name="aayush_twitter">\@aayushkumaria11</string>
+    <string name="ajinkya_name">Ajinkya Rajkar</string>
+    <string name="ajinkya_email">ajinkyarajkar@gmail.com</string>
+    <string name="ajinkya_instagram">\@ajinkya.rajkar</string>
+    <string name="ajinkya_twitter">\@RajkarAjinkya</string>
+    <string name="copy_address"><i> Click the logo to copy the address </i></string>
+
+
+
+</resources>
